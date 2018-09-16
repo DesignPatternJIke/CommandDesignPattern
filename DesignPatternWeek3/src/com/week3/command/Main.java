@@ -24,14 +24,14 @@ public class Main {
 
   
         // Chicago
-        CakeBaseCommander gameBoy2 = new CakeBaseCommander(chicagoStrawberryCommand, chicagoChocolateCommand);
-        gameBoy2.strawberryCake();
-        gameBoy2.chocolateCake();
+        CakeBaseCommander chicagoCakeBaseCommander = new CakeBaseCommander(chicagoStrawberryCommand, chicagoChocolateCommand);
+        chicagoCakeBaseCommander.strawberryCake();
+        chicagoCakeBaseCommander.chocolateCake();
         
         //New York
-        CakeBaseCommander cakeBaseCommander = new CakeBaseCommander(newYorkStrawberryCommand, newYorkChocolateCommand);
-        cakeBaseCommander.strawberryCake();
-        cakeBaseCommander.chocolateCake();
+        CakeBaseCommander nyCakeBaseCommander = new CakeBaseCommander(newYorkStrawberryCommand, newYorkChocolateCommand);
+        nyCakeBaseCommander.strawberryCake();
+        nyCakeBaseCommander.chocolateCake();
 
      
 
